@@ -1,0 +1,21 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: service-com.myc.school.edu
+  profiles:
+    active: dev
+  datasource:
+    username: root
+    password: m37195818
+    url: jdbc:mysql://localhost:3306/school?serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#logging:
+#  level:
+#    root: info
